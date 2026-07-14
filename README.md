@@ -11,6 +11,13 @@ The objective of this project is to build an accurate machine learning model tha
 The project compares multiple regression algorithms and selects the best-performing model based on evaluation metrics and cross-validation.
 
 ---
+## 🌐 Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+**Live Demo:** *(https://used-car-price-prediction-new.streamlit.app/)*
+
+---
 
 ## 🚀 Features
 
@@ -132,25 +139,6 @@ The following metrics were used for model evaluation:
 - Root Mean Squared Error (RMSE)
 - R² Score
 - 5-Fold Cross Validation
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-## 🌐 Deployment
-
-The application is deployed using Streamlit Community Cloud.
-
-**Live Demo:** *(Add your Streamlit URL here after deployment.)*
 
 ---
 
