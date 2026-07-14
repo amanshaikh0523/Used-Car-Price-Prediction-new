@@ -22,7 +22,19 @@ feature_names = joblib.load("feature_names.pkl")
 
 # Load dataset for dropdown values
 df = pd.read_csv("usedCars (2).csv")
+# Convert categorical columns to string
+categorical_columns = [
+    "Company",
+    "Model",
+    "Variant",
+    "FuelType",
+    "BodyStyle",
+    "TransmissionType",
+    "Owner"
+]
 
+for col in categorical_columns:
+    df[col] = df[col].fillna("Unknown").astype(str)
 # -----------------------------
 # Title
 # -----------------------------
